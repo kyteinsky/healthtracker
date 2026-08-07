@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  - SPDX-FileCopyrightText: 2026 Nextcloud GmbH and Nextcloud contributors
+  - SPDX-License-Identifier: AGPL-3.0-or-later
+-->
+<psalm
+	totalErrors="0"
+	resolveFromConfigFile="true"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns="https://getpsalm.org/schema/config"
+	xsi:schemaLocation="https://getpsalm.org/schema/config vendor-bin/psalm/vendor/vimeo/psalm/config.xsd"
+	errorBaseline="tests/psalm-baseline.xml"
+>
+	<projectFiles>
+		<directory name="lib" />
+		<directory name="tests" />
+	</projectFiles>
+</psalm>
